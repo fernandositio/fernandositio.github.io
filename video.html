@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Video</title>
+<link href="css/estilo -video.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+	<a href="index.html"><h1>Sky Elements</h1></a>
+</header>
+<nav>
+<div>
+	<a href="ilustraciones.html">
+	<button>
+  	 <span></span>
+	 <span></span>
+	 <span></span>
+	 <span></span>
+	 Ilustraciones
+	</button>
+	</a>
+  </div>
+	<div>
+	<a href="Video.html">
+	  <button>
+  	 <span></span>
+	 <span></span>
+	 <span></span>
+	 <span></span>
+	 Videos
+	</button>
+	</a>
+	</div>
+	<div>
+	<a href="proyectos.html">
+	 <button>
+  	 <span></span>
+	 <span></span>
+	 <span></span>
+	 <span></span>
+	 Proyectos
+	</button>
+	</a>
+	</div>
+	<div>
+	<a href="index.html">
+    <button>
+  	 <span></span>
+	 <span></span>
+	 <span></span>
+	 <span></span>
+	 Acerca de mi
+	</button>
+	</a>
+	</div>
+	<div>
+	 <a href="contacto.html">
+	 <button>
+  	 <span></span>
+	 <span></span>
+	 <span></span>
+	 <span></span>
+	 Contacto
+	</button>
+	</a>
+	</div>
+</nav>
+<main>
+	<div class="contenedor">
+	<div class="heading">Galeria de videos</div>
+		<div class="info">
+			<h2>Dentro de esta pagina encontraras una variedad de videos en los que se emplean diferentes tecnicas intentando buscar la mejor opcion para tu proyecto ya sea personal o como empresa</h2>
+		</div>
+	<div class="video-contenedor2">
+		<div class="video2">
+          <video src="videos/spot publicitario.mp4" controls="controls" muted="muted" autoplay="autoplay" ></video>
+		</div>
+	</div>
+	<div class="video-contenedor">
+		<div class="video">
+          <video src="videos/conta_2.0.mp4" controls="controls" muted="muted" ></video>
+		</div>
+		<div class="video">
+          <video src="videos/contador-4.mp4" controls="controls" muted="muted"></video>
+		</div>	
+		<div class="video">
+          <video src="videos/presentacion.mp4" controls="controls" muted="muted"></video>
+		</div>	
+		<div class="video">
+          <video src="videos/prop_bmj (clip unido).mp4" controls="controls" muted="muted"></video>
+		</div>	
+		<div class="video">
+          <video src="videos/proyecto stop motion.mp4" controls="controls" muted="muted"></video>
+		</div>	
+		<div class="video">
+          <video src="videos/Spot TV.mp4" controls="controls" muted="muted" ></video>
+		</div>	
+		<div class="video">
+          <video src="videos/upto.mp4" controls="controls" muted="muted"></video>
+		</div>
+		<div class="video">
+          <video src="videos/pexels-felipe-david-5277105.mp4" controls="controls" muted="muted" ></video>
+		</div>
+	</div>
+	</div>
+	<script>
+	 var video = document.querySelectorAll('video')
+	 video.forEach(play=> play.addEventListener('click',(=>{
+	 play.classList.toggle('active');													 
+	 })));
+	</script>
+</main>
+<footer class="pie-pagina">
+	<div class="grupo-1">
+	 	<div class="box">
+			<h2>SKY ELEMENTS</h2>
+		 <figure>
+				
+			  <img src="img/circle-logo-png.webp">
+		 </figure>
+		</div>
+	 	<div class="box">
+			<h2 class="pie_h2">SOBRE MI</h2>
+			<p class="p_footer">Diseñador emerjente proporcionando diferentes estilo para atraer la atencion del cliente y apoyar plasmando sus ideas.</p>
+			<p class="p_footer">Impulsando empresas pequeñas que esten interesadas en profecionalizar su marca siempre buscando lo  mejor para la misma.</p>
+			
+			
+		</div>
+	 	<div class="box">
+			<h2>SIGUEME</h2>
+			<div class="red-social">
+				<a href="https://www.facebook.com/profile.php?id=100016958224074"><img src="img/redes/red-face.png" width="100px" height="100px" class="red_so"></a>
+				<a href="https://www.instagram.com/qr/"><img src="img/redes/red-insta.png"  width="100px" height="100px" class="red_so" ></a>
+				<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><img src="img/redes/red-correo.png" width="100px" height="100px" class="red_so"></a>
+			</div>
+		</div>
+	</div>
+	<div class="grupo-2">
+		<small>&copy;2023<b> Sky Elements</b> - Todos los Derechos Reservados.</small>
+	</div>
+</footer>
+</body>
+</html>
