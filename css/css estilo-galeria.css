@@ -1,0 +1,259 @@
+@charset "utf-8";
+*{
+	margin: 0
+}
+header, nav, main, footer {
+    margin: auto;
+}
+header {
+    background-color: #45727E;
+    color: #FFFFFF;
+    font-family: montserrat;
+    width: auto;
+    height: 76px;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #41809E;
+    width: auto;
+    height: 80px;
+    text-align: center;
+    padding: 10px;
+    font-family: Futura Bk BT;
+    flex: wrap;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color: #45727E;
+    width: auto;
+    padding: 10px;
+    color: #EFEBE6;
+    font-family: Futura Bk BT;
+}
+nav div{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    margin-right: 1	8px;
+    margin-left: 18px;
+    margin-bottom: 18px;
+    min-height: 29px;
+}
+button{
+    position: relative;
+    padding-top: 18px;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 14px;
+    border: none;
+    outline: none;
+    background: #4B9AC1;
+    margin-top: 12px;
+    color:#D6EDFF;
+    cursor: pointer;
+    font-size: 21px;
+    transition: .5s;
+    overflow: hidden;
+}
+button:hover{
+	color:#FFFFFF
+}
+button span{
+	position: absolute;
+	background: #FFFFFF;
+	transition: .5s;
+}
+button span:nth-child(1){
+	width: 100%;
+	height: 1px;
+	top:0;
+	left: -100%;
+}
+button span:nth-child(2){
+	width: 100%;
+	height: 1px;
+	bottom:0;
+	right:-100%;
+}
+button span:nth-child(3){
+	width: 1px;
+	height:100%;
+	bottom:-100%;
+	left:0;
+}
+button span:nth-child(4){
+	width: 1px;
+	height: 100%;
+	top: -100%;
+	right: 0%
+}
+button:hover span:nth-child(1){
+	left:0;
+}
+button:hover span:nth-child(2){
+	right:0;
+}
+button:hover span:nth-child(3){
+	bottom:0;
+}
+button:hover span:nth-child(4){
+	top:0;
+}
+main{
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #EFEBE6;	
+}
+#conteitemscarrusel{
+    border: 5px #000000;
+    overflow: hidden;
+    height: 400px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#conteitemscarrusel2{
+    border: 5px #000000;
+    overflow: hidden;
+ 	 height: 400px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#conteitemscarrusel3{
+    border: 5px #000000;
+    overflow: hidden;
+ height: 400px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#conteitemscarrusel4{
+    border: 5px #000000;
+    overflow: hidden;
+ height: 400px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#conteitemscarrusel5{
+    border: 5px #000000;
+    overflow: hidden;
+    height: 400px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#conteitemscarrusel6{
+    border: 5px #000000;
+    overflow: hidden;
+	 height: 400px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EAE2D9;
+    font-size: medium;
+}
+h2 {
+    font-family: montserrat;
+    margin: 10px;
+    font-size: 25px;
+}
+p{
+    font-family: montserrat;
+    margin: 10px;
+    text-align: center;
+}
+.itemCarruser{
+    border: 1px solid #000000;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.tarjetaCarrusel{
+	background-color: #4B9AC1;
+	height: 100%;
+}
+.flechasCarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+	color: #4B9AC1;
+}
+a{
+	text-decoration: none
+}
+img{
+	width: 100%;
+}
+i{
+    font-size: 50px;
+}
+.pie-pagina{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    grid-template-columns: auto;
+    grid-gap: 50px;
+    padding: 45px 0px;
+    height: auto;
+}
+.pie-pagina .grupo-1 .box figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+.pie-pagina .grupo-1 .box {
+}
+
+.pie-pagina .grupo-1 .box figure img{
+	width: 150px;
+}
+.pie-pagina .grupo-1 .red-social{
+    width: 56px;
+    height: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pie-pagina .grupo-2{
+    padding: 15px 10px;
+    text-align: center;
+    height: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pie-pagina .grupo-2 small{
+	font-size: 15px;
+}
+header a h1 {
+    outline: none;
+    border: none;
+    text-decoration: none;
+	color: #EFEBE6
+}
+.p_footer{
+    margin: 10px;
+    font-size: 20px;
+    text-align: left;
+}
